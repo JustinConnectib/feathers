@@ -212,12 +212,12 @@ package feathers.controls.supportClasses
 
 		private var _owner:List;
 
-		public function get owner():import feathers.controls.List
+		public function get owner():feathers.controls.List
 		{
 			return this._owner;
 		}
 
-		public function set owner(value:import feathers.controls.List):void
+		public function set owner(value:feathers.controls.List):void
 		{
 			if(this._owner == value)
 			{
