@@ -74,12 +74,12 @@ package feathers.controls.renderers
 		 *
 		 * <p>This property is set by the list, and should not be set manually.</p>
 		 */
-		function get owner():import feathers.controls.List;
+		function get owner():feathers.controls.List;
 		
 		/**
 		 * @private
 		 */
-		function set owner(value:import feathers.controls.List):void;
+		function set owner(value:feathers.controls.List):void;
 
 		/**
 		 * The ID of the factory used to create this item renderer.
