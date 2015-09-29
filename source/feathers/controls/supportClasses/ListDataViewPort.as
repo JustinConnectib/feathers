@@ -210,7 +210,7 @@ package feathers.controls.supportClasses
 
 		private var _isScrolling:Boolean = false;
 
-		private var _owner:List;
+		private var _owner:feathers.controls.List;
 
 		public function get owner():feathers.controls.List
 		{
